@@ -1,0 +1,24 @@
+shadcn integrate:
+https://masteringnuxt.com/blog/how-to-integrate-shadcn-with-nuxtjs
+
+here, we need to add a file at root "tailwind.config.js" and get ready before:
+npx shadcn-vue@v0.10.4 init
+also clean up fully the tailwind.css file and leave it blank
+
+Bug in shadcn, the ui folder will not contain any components, if use:
+npx shadcn-vue@latest init
+
+So do:
+npx shadcn-vue@v0.10.4 init
+then always:
+npx shadcn-vue@v0.10.4 add sheet etc etc
+
+ref: https://github.com/unovue/shadcn-vue/issues/560
+
+
+for active links:
+https://medium.com/@flanker72/nuxt3-complex-solutions-active-link-decoration-b506a250d14c
+
+Icon=> nuxtjs
+https://www.vuemastery.com/blog/nuxt-icon/
+https://icon-sets.iconify.design/ic/sharp-apple/
